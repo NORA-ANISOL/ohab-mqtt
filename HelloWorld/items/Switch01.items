@@ -1,1 +1,1 @@
-Switch mqttsw1 "Switch 1" {mqtt=">[mul:testsw/1:command:ON:1],>[mul:testsw/1:command:OFF:0]"}
+Switch lamp1 "Switch 1" {mqtt=">[mul:lamp/garage:command:ON:1],>[mul:lamp/garage:command:OFF:0]"}
