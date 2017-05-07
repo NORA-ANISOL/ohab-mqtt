@@ -4,6 +4,9 @@ sitemap dummy label="Main Menu"
  Switch item=lamp1 label="Switch lamp"
  Switch item=dgarage
  Switch item=kgarden
- Text item=homeTemp
+ Text item=tRoomA01
+ Text item=tRoomB01
+ Text item=uvYard01
+ Text item=uvAtic01
  }
 }
