@@ -1,0 +1,1 @@
+Switch kgarden "Switch garden" {mqtt=">[mul:key/garden:command:OFF:0],>[mul:key/garden:command:ON:1]"}
