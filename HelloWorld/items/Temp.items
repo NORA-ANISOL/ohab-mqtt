@@ -1,1 +1,2 @@
-Number homeTemp "Temperature [%.1f °C]" {mqtt="<[mul:myHome/temperature:state:default]"}
+Number tRoomA01 "RoomA01 [%.1f °C]" <temperature> {mqtt="<[mul:myHome/tempSensor/RoomA/01:state:default]"}
+Number tRoomB01 "RoomB01 [%.1f °C]" <temperature> {mqtt="<[mul:myHome/tempSensor/RoomB/01:state:default]"}
