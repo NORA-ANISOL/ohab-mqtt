@@ -1,0 +1,2 @@
+Number uvYard01 "Yard01 [%.4f UV]" <sun> {mqtt="<[mul:myHome/uvSensor/yard/01:state:default]"}
+Number uvAtic01 "Atic01 [%.4f UV]" <sun> {mqtt="<[mul:myHome/uvSensor/atic/01:state:default]"}
