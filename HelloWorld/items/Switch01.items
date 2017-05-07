@@ -1,0 +1,1 @@
+Switch mqttsw1 "Switch 1" {mqtt=">[mul:testsw/1:command:ON:1],>[mul:testsw/1:command:OFF:0]"}

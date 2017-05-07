@@ -1,0 +1,8 @@
+sitemap dummy label="Main Menu"
+{
+ Frame label="MQTT" {
+ Switch item=mqttsw1 icon="big_bulb" label="MQTT Switch 1"
+ Switch item=mqttsw2 label="MQTT Switch 2"
+ Text item=homeTemp
+ }
+}
