@@ -1,0 +1,2 @@
+String lightYard01 "Yard01 [%s]" <energy> {mqtt="<[mul:myHome/light/yard/01:state:default]"}
+String lightKitchen01 "Kitchen01 [%s]" <energy> {mqtt="<[mul:myHome/light/kitchen/01:state:default]"}
