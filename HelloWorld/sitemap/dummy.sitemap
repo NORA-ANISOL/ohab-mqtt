@@ -8,5 +8,7 @@ sitemap dummy label="Main Menu"
  Text item=tRoomB01
  Text item=uvYard01
  Text item=uvAtic01
+ Text item=lightYard01
+ Text item=lightKitchen01
  }
 }
