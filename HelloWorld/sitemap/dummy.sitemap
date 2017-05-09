@@ -1,14 +1,20 @@
 sitemap dummy label="Main Menu"
 {
- Frame label="MQTT" {
- Switch item=lamp1 label="Switch lamp"
- Switch item=dgarage
- Switch item=kgarden
- Text item=tRoomA01
- Text item=tRoomB01
- Text item=uvYard01
- Text item=uvAtic01
- Text item=lightYard01
- Text item=lightKitchen01
- }
+ Frame label="Apagadores" {
+	 Switch item=lamp1 label="Switch lamp"
+	 Switch item=dgarage
+	 Switch item=kgarden
+	 }
+ Frame label="Temperatura"{
+	 Text item=tRoomA01
+	 Text item=tRoomB01
+	 }
+ Frame label="Luz UV"{
+	 Text item=uvYard01
+	 Text item=uvAtic01
+	 }
+ Frame label="Lámparas"{
+	 Text item=lightYard01
+	 Text item=lightKitchen01
+	 }
 }
