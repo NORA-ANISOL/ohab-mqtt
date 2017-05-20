@@ -1,0 +1,3 @@
+String uvSensor "Rayos UV [%s]" <sun> {mqtt="<[mul:myHome/uvSensor01/garden:state:default]"}
+Switch sprinkler01 "Sprinkler01" {mqtt=">[mul:myHome/sprinkler01/garden:command:ON:1],>[mul:myHome/sprinkler01/garden:command:OFF:0]"}
+Switch sprinkler02 "Sprinkler02" {mqtt=">[mul:myHome/sprinkler02/garden:command:ON:1],>[mul:myHome/sprinkler02/garden:command:OFF:0]"}

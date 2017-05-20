@@ -1,0 +1,5 @@
+Switch lamp1 "Lamp 01" {mqtt=">[mul:myHome/lamp01/room03:command:ON:1],>[mul:myHome/lamp01/room03:command:OFF:0]"}
+Switch lamp2 "Lamp 02" {mqtt=">[mul:myHome/lamp02/room03:command:ON:1],>[mul:myHome/lamp02/room03:command:OFF:0]"}
+Switch lamp3 "Lamp 03" {mqtt=">[mul:myHome/lamp03/room03:command:ON:1],>[mul:myHome/lamp03/room03:command:OFF:0]"}
+
+Dimmer speedFan "Speed Fan [%d %%]" <fan> {mqtt=">[mul:myHome/fan01/room03:command:*:${command}]"}

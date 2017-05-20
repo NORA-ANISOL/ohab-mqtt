@@ -1,0 +1,7 @@
+String lightSensor01 "Light [%s]" <light-on> {mqtt="<[mul:myHome/lightSensor/room01:state:default]"}
+String Windowsensor01 "Window [%s]" <window> {mqtt="<[mul:myHome/windowSensor/room01:state:default]"}
+String doorsensor01 "Door [%s]" <door-open> {mqtt="<[mul:myHome/doorSensor/room01:state:default]"}
+Number tRoom01 "Temperatura [%.1f °C]" <temperature> {mqtt="<[mul:myHome/temperatureSensor/room01:state:default]"}
+Number Humidity01 "Humidity [%.1f °C]" <humidity> {mqtt="<[mul:myHome/humiditySensor/room01:state:default]"}
+Number thR01LightS01 "Light Sensor Threshold [%.1f]" <slider> {mqtt=">[mul:myHome/lightSensor/room01/threshold:command:*:${command}]"}
+Switch lampR101 "Lamp01" {mqtt=">[mul:myHome/lamp01/room01:command:ON:1],>[mul:myHome/lamp01/room01:command:OFF:0]"}

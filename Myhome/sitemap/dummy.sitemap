@@ -1,0 +1,35 @@
+sitemap dummy label="My home" {
+    Frame label="Date" {
+        Text item=Date
+    }
+    Frame label="Room 01"{
+    	Text item=lightSensor01
+    	Text item=Windowsensor01
+    	Text item=doorsensor01
+    	Text item=tRoom01
+    	Text item=Humidity01
+        Setpoint item=thR01LightS01 minValue=0 maxValue=17000 step=10
+        Switch item=lampR101
+    }
+	Frame label="Room 02"{
+    	Text item=lightSensor02
+    	Text item=Windowsensor02
+    	Text item=doorsensor02
+    	Text item=tRoom02
+    	Text item=Humidity02
+        Setpoint item=thR02LightS01 minValue=0 maxValue=17000 step=10
+        Switch item=lampR201
+    }
+    Frame label="Room 03"{
+     Switch item=lamp1
+     Switch item=lamp2
+     Switch item=lamp3
+     Slider item=speedFan sendFrequency=1 switchSupport
+
+    }
+    Frame label="Garden"{
+     Text item=uvSensor
+     Switch item=sprinkler01
+     Switch item=sprinkler02
+    }
+ }
