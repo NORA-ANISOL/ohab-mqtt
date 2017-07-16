@@ -5,3 +5,5 @@ Number tRoom01 "Temperatura [%.1f °C]" <temperature> {mqtt="<[mul:myHome/temper
 Number Humidity01 "Humidity [%.1f °C]" <humidity> {mqtt="<[mul:myHome/humiditySensor/room01:state:default]"}
 Number thR01LightS01 "Light Sensor Threshold [%.1f]" <slider> {mqtt=">[mul:myHome/lightSensor/room01/threshold:command:*:${command}]"}
 Switch lampR101 "Lamp01" {mqtt=">[mul:myHome/lamp01/room01:command:ON:1],>[mul:myHome/lamp01/room01:command:OFF:0]"}
+String FanCeiling "Fan [%s]" <fan_ceiling> {mqtt=">[mul:myHome/fanCeiling/room01:state:default]"}
+String AirCondition "Air Condition [%d %%]" <climate-on> {mqtt="<[mul:myHome/AirCondition/room01:state:default]"}
