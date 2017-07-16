@@ -10,6 +10,8 @@ sitemap dummy label="My home" {
     	Text item=Humidity01
         Setpoint item=thR01LightS01 minValue=0 maxValue=17000 step=10
         Switch item=lampR101
+        Text item=FanCeiling
+        Text item=AirCondition
     }
 	Frame label="Room 02"{
     	Text item=lightSensor02

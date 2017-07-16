@@ -1,1 +1,1 @@
-DateTime Date "Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar> (Status)	{ ntp="" }
+DateTime Date  "Date [%1$tA, %1$td.%1$tm.%1$tY %1$tH:%1$tM]" <calendar> { channel="ntp:ntp:demo:dateTime" }
